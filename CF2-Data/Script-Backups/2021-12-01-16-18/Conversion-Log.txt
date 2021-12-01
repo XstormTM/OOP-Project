@@ -1,0 +1,262 @@
+Converting script [1 / 20]	[\SwarveMovement.cs]
+	Fragments : 6
+		[ 0] : Line:    8	Other mod.	[Touch]
+		[ 1] : Line:   14	InputProperty touchCount          
+		[ 2] : Line:   16	InputMethod   GetTouch            	(0)
+		[ 3] : Line:   36	Other mod.	[Touch]
+		[ 4] : Line:   38	InputProperty touchCount          
+		[ 5] : Line:   40	InputMethod   GetTouch            	(0)
+
+Converting script [2 / 20]	[\Control-Freak-2\Debug\Scripts\AxisDebugger.cs]
+	Fragments : 5
+		[ 0] : Line:   45	InputMethod   GetKeyDown          	(this.deltaResetKey)
+		[ 1] : Line:   55	InputProperty mouseScrollDelta    
+		[ 2] : Line:   56	InputProperty mouseScrollDelta    
+		[ 3] : Line:  134	InputMethod   GetAxis             	(axis.name)
+		[ 4] : Line:  181	InputMethod   GetAxis             	(name)
+
+Converting script [3 / 20]	[\Control-Freak-2\Debug\Scripts\GamepadHardwareTester.cs]
+	Fragments : 11
+		[ 0] : Line:   74	InputMethod   GetAxis             	("JoyAxis" + axis)
+		[ 1] : Line:   87	InputMethod   GetKey              	(KeyCode.Joystick1Button0 + key)
+		[ 2] : Line:  113	InputMethod   GetAxisRaw          	(GetJoyAxisName(joy, i)
+		[ 3] : Line:  124	InputMethod   GetKey              	(GetJoyKeyCode(joy, i)
+		[ 4] : Line:  145	InputMethod   GetKey              	(KeyCode.Escape)
+		[ 5] : Line:  146	InputMethod   GetKey              	(KeyCode.Return)
+		[ 6] : Line:  147	InputMethod   GetKey              	(KeyCode.LeftShift)
+		[ 7] : Line:  148	InputMethod   GetKey              	(KeyCode.RightShift)
+		[ 8] : Line:  149	InputMethod   GetKey              	(KeyCode.LeftControl)
+		[ 9] : Line:  150	InputMethod   GetKey              	(KeyCode.RightControl)
+		[10] : Line:  151	InputMethod   GetKey              	(KeyCode.Space)
+
+Converting script [4 / 20]	[\Control-Freak-2\Scripts\Gamepads\GamepadManager.cs]
+	Fragments : 2
+		[ 0] : Line: 1571	InputMethod   GetKey              	(this.key)
+		[ 1] : Line: 1652	InputMethod   GetAxisRaw          	(this.axisName)
+
+Converting script [5 / 20]	[\Control-Freak-2\Scripts\InputModules\GamepadInputModule.cs]
+	Fragments : 10
+		[ 0] : Line:   37	InputMethod   GetKeyDown          	(KeyCode.Return)
+		[ 1] : Line:   50	InputMethod   GetKeyDown          	(KeyCode.Escape)
+		[ 2] : Line:   64	InputMethod   GetKeyDown          	(KeyCode.LeftArrow)
+		[ 3] : Line:   65	InputMethod   GetKeyDown          	(KeyCode.RightArrow)
+		[ 4] : Line:   66	InputMethod   GetKeyDown          	(KeyCode.UpArrow)
+		[ 5] : Line:   67	InputMethod   GetKeyDown          	(KeyCode.DownArrow)
+		[ 6] : Line:  226	InputMethod   GetKeyDown          	(KeyCode.RightArrow)
+		[ 7] : Line:  226	InputMethod   GetKeyDown          	(KeyCode.LeftArrow)
+		[ 8] : Line:  227	InputMethod   GetKeyDown          	(KeyCode.UpArrow)
+		[ 9] : Line:  227	InputMethod   GetKeyDown          	(KeyCode.DownArrow)
+
+Converting script [6 / 20]	[\Control-Freak-2\Scripts\System\CF2Input.cs]
+	Fragments : 33
+		[ 0] : Line:  158	InputProperty simulateMouseWithTouches
+		[ 1] : Line:  165	InputProperty simulateMouseWithTouches
+		[ 2] : Line:  169	InputProperty simulateMouseWithTouches
+		[ 3] : Line:  205	InputMethod   GetAxis             	(axisName)
+		[ 4] : Line:  215	InputMethod   GetAxis             	(axisName)
+		[ 5] : Line:  224	InputMethod   GetAxisRaw          	(axisName)
+		[ 6] : Line:  233	InputMethod   GetAxisRaw          	(axisName)
+		[ 7] : Line:  250	InputMethod   GetButton           	(axisName)
+		[ 8] : Line:  259	InputMethod   GetButton           	(axisName)
+		[ 9] : Line:  269	InputMethod   GetButtonDown       	(axisName)
+		[10] : Line:  278	InputMethod   GetButtonDown       	(axisName)
+		[11] : Line:  287	InputMethod   GetButtonUp         	(axisName)
+		[12] : Line:  295	InputMethod   GetButtonUp         	(axisName)
+		[13] : Line:  312	InputMethod   GetKey              	(keyCode)
+		[14] : Line:  321	InputMethod   GetKeyDown          	(keyCode)
+		[15] : Line:  330	InputMethod   GetKeyUp            	(keyCode)
+		[16] : Line:  341	InputMethod   GetKey              	(keyName)
+		[17] : Line:  351	InputMethod   GetKeyDown          	(keyName)
+		[18] : Line:  361	InputMethod   GetKeyUp            	(keyName)
+		[19] : Line:  366	InputProperty anyKey              
+		[20] : Line:  370	InputProperty anyKeyDown          
+		[21] : Line:  388	InputProperty touchCount          
+		[22] : Line:  399	InputProperty touches             
+		[23] : Line:  409	InputMethod   GetTouch            	(i)
+		[24] : Line:  427	InputMethod   GetMouseButton      	(mouseButton)
+		[25] : Line:  436	InputMethod   GetMouseButtonDown  	(mouseButton)
+		[26] : Line:  445	InputMethod   GetMouseButtonUp    	(mouseButton)
+		[27] : Line:  464	InputProperty mousePosition       
+		[28] : Line:  476	InputProperty mouseScrollDelta    
+		[29] : Line:  476	InputProperty mouseScrollDelta    
+		[30] : Line:  484	InputProperty simulateMouseWithTouches
+		[31] : Line:  490	InputProperty simulateMouseWithTouches
+		[32] : Line:  492	InputProperty simulateMouseWithTouches
+
+Converting script [7 / 20]	[\Control-Freak-2\Scripts\System\CFCursor.cs]
+	Fragments : 8
+		[ 0] : Line:  171	Other mod.	[UnityEngine.Screen.lockCursor]
+		[ 1] : Line:  173	Other mod.	[UnityEngine.Cursor.lockState]
+		[ 2] : Line:  181	Other mod.	[UnityEngine.Screen.lockCursor]
+		[ 3] : Line:  183	Other mod.	[UnityEngine.Cursor.lockState]
+		[ 4] : Line:  193	Other mod.	[UnityEngine.Screen.showCursor]
+		[ 5] : Line:  195	Other mod.	[UnityEngine.Cursor.visible]
+		[ 6] : Line:  203	Other mod.	[UnityEngine.Screen.showCursor]
+		[ 7] : Line:  205	Other mod.	[UnityEngine.Cursor.visible]
+
+Converting script [8 / 20]	[\Control-Freak-2\Scripts\System\CFScreen.cs]
+	Fragments : 7
+		[ 0] : Line:   86	Other mod.	[Screen.fullScreen]
+		[ 1] : Line:   87	Other mod.	[Screen.fullScreen]
+		[ 2] : Line:   98	Other mod.	[Screen.SetResolution(width, height, fullScreen, refreshRate)]
+		[ 3] : Line:  124	Other mod.	[Screen.dpi]
+		[ 4] : Line:  137	Other mod.	[Screen.dpi]
+		[ 5] : Line:  140	Other mod.	[Screen.dpi]
+		[ 6] : Line:  145	Other mod.	[Screen.dpi]
+
+Converting script [9 / 20]	[\Control-Freak-2\Scripts\System\InputRig.cs]
+	Fragments : 11
+		[ 0] : Line:  827	InputMethod   GetKey              	(key)
+		[ 1] : Line: 1222	InputMethod   GetKey              	(keyCode)
+		[ 2] : Line: 1241	InputMethod   GetKeyDown          	(keyCode)
+		[ 3] : Line: 1260	InputMethod   GetKeyUp            	(keyCode)
+		[ 4] : Line: 1273	InputProperty anyKey              
+		[ 5] : Line: 1274	InputProperty anyKeyDown          
+		[ 6] : Line: 1712	Other mod.	[Touch]
+		[ 7] : Line: 1735	Other mod.	[Touch]
+		[ 8] : Line: 1748	Other mod.	[UnityEngine.Touch]
+		[ 9] : Line: 1874	Other mod.	[Touch]
+		[10] : Line: 1941	Other mod.	[Touch]
+
+Converting script [10 / 20]	[\Control-Freak-2\Scripts\TouchControls\SuperTouchZone.cs]
+	Fragments : 24
+		[ 0] : Line: 2105	InputMethod   GetKey              	(this.zone.emuMouseTwoFingersKey)
+		[ 1] : Line: 2105	InputMethod   GetKey              	(this.zone.emuMouseTwistKey)
+		[ 2] : Line: 2105	InputMethod   GetKey              	(this.zone.emuMousePinchKey)
+		[ 3] : Line: 2106	InputMethod   GetKey              	(this.zone.emuMouseThreeFingersKey)
+		[ 4] : Line: 2181	InputMethod   GetKey              	(this.zone.emuMouseTwistKey)
+		[ 5] : Line: 2182	InputMethod   GetKey              	(this.zone.emuMousePinchKey)
+		[ 6] : Line: 2187	InputMethod   GetKey              	(this.zone.emuMouseTwoFingersKey)
+		[ 7] : Line: 2187	InputMethod   GetKey              	(this.zone.emuMouseThreeFingersKey)
+		[ 8] : Line: 2204	InputMethod   GetKey              	(this.zone.emuKeySwipeR)
+		[ 9] : Line: 2204	InputMethod   GetKey              	(this.zone.emuKeySwipeL)
+		[10] : Line: 2205	InputMethod   GetKey              	(this.zone.emuKeySwipeU)
+		[11] : Line: 2205	InputMethod   GetKey              	(this.zone.emuKeySwipeD)
+		[12] : Line: 2207	InputMethod   GetKey              	(this.zone.emuKeyPinch)
+		[13] : Line: 2207	InputMethod   GetKey              	(this.zone.emuKeySpread)
+		[14] : Line: 2208	InputMethod   GetKey              	(this.zone.emuKeyTwistL)
+		[15] : Line: 2208	InputMethod   GetKey              	(this.zone.emuKeyTwistR)
+		[16] : Line: 2217	InputMethod   GetKey              	(this.zone.emuKeyOneFinger)
+		[17] : Line: 2219	InputMethod   GetKey              	(this.zone.emuKeyTwoFingers)
+		[18] : Line: 2221	InputMethod   GetKey              	(this.zone.emuKeyThreeFingers)
+		[19] : Line: 2231	InputMethod   GetKey              	(this.zone.emuKeyOneFinger)
+		[20] : Line: 2232	InputMethod   GetKey              	(this.zone.emuKeyTwoFingers)
+		[21] : Line: 2233	InputMethod   GetKey              	(this.zone.emuKeyThreeFingers)
+		[22] : Line: 2307	InputMethod   GetKey              	(this.zone.emuMouseTwistKey)
+		[23] : Line: 2308	InputMethod   GetKey              	(this.zone.emuMousePinchKey)
+
+Converting script [11 / 20]	[\Control-Freak-2\Scripts\TouchControls\TouchControlPanel.cs]
+	Fragments : 12
+		[ 0] : Line:  466	InputProperty touchPressureSupported
+		[ 1] : Line:  468	InputProperty touchCount          
+		[ 2] : Line:  470	Other mod.	[UnityEngine.Touch]
+		[ 3] : Line:  470	InputMethod   GetTouch            	(i)
+		[ 4] : Line:  490	InputProperty touchPressureSupported
+		[ 5] : Line:  492	InputProperty touchCount          
+		[ 6] : Line:  494	Other mod.	[UnityEngine.Touch]
+		[ 7] : Line:  494	InputMethod   GetTouch            	(i)
+		[ 8] : Line:  635	InputMethod   GetMouseButton      	(0)
+		[ 9] : Line:  636	InputMethod   GetMouseButton      	(1)
+		[10] : Line:  637	InputMethod   GetMouseButton      	(2)
+		[11] : Line:  638	InputProperty touchCount          
+
+Converting script [12 / 20]	[\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs]
+	Fragments : 4
+		[ 0] : Line:   51	InputProperty mousePosition       
+		[ 1] : Line:   51	InputProperty mousePosition       
+		[ 2] : Line:   52	InputProperty mousePosition       
+		[ 3] : Line:   52	InputProperty mousePosition       
+
+Converting script [13 / 20]	[\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs]
+	Fragments : 8
+		[ 0] : Line:   29	InputMethod   GetKeyDown          	(KeyCode.RightArrow)
+		[ 1] : Line:   34	InputMethod   GetKeyDown          	(KeyCode.D)
+		[ 2] : Line:   39	InputMethod   GetKeyDown          	(KeyCode.A)
+		[ 3] : Line:   43	InputMethod   GetKeyDown          	(KeyCode.LeftArrow)
+		[ 4] : Line:   48	InputMethod   GetKeyDown          	(KeyCode.Mouse0)
+		[ 5] : Line:   52	InputProperty mousePosition       
+		[ 6] : Line:   60	InputProperty mousePosition       
+		[ 7] : Line:   60	InputProperty mousePosition       
+
+Converting script [14 / 20]	[\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs]
+	Fragments : 4
+		[ 0] : Line:   38	InputMethod   GetMouseButton      	(1)
+		[ 1] : Line:   40	InputMethod   GetAxis             	("Mouse X")
+		[ 2] : Line:   41	InputMethod   GetAxis             	("Mouse Y")
+		[ 3] : Line:   50	InputMethod   GetAxis             	("Mouse ScrollWheel")
+
+Converting script [15 / 20]	[\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs]
+	Fragments : 4
+		[ 0] : Line:  105	InputMethod   GetKeyDown          	(KeyCode.L)
+		[ 1] : Line:  118	InputMethod   GetKeyDown          	(KeyCode.J)
+		[ 2] : Line:  131	InputMethod   GetKeyDown          	(KeyCode.H)
+		[ 3] : Line:  144	InputMethod   GetKeyDown          	(KeyCode.K)
+
+Converting script [16 / 20]	[\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs]
+	Fragments : 4
+		[ 0] : Line:   27	InputMethod   GetMouseButtonUp    	(0)
+		[ 1] : Line:   33	InputMethod   GetKeyUp            	(KeyCode.A)
+		[ 2] : Line:   36	InputMethod   GetKeyUp            	(KeyCode.D)
+		[ 3] : Line:   73	InputProperty mousePosition       
+
+Converting script [17 / 20]	[\Scripts\SimpleCameraController.cs]
+	Fragments : 17
+		[ 0] : Line:  139	InputMethod   GetKey              	(KeyCode.W)
+		[ 1] : Line:  143	InputMethod   GetKey              	(KeyCode.S)
+		[ 2] : Line:  147	InputMethod   GetKey              	(KeyCode.A)
+		[ 3] : Line:  151	InputMethod   GetKey              	(KeyCode.D)
+		[ 4] : Line:  155	InputMethod   GetKey              	(KeyCode.Q)
+		[ 5] : Line:  159	InputMethod   GetKey              	(KeyCode.E)
+		[ 6] : Line:  182	Other mod.	[Cursor.lockState]
+		[ 7] : Line:  188	Other mod.	[Cursor.visible]
+		[ 8] : Line:  189	Other mod.	[Cursor.lockState]
+		[ 9] : Line:  234	InputProperty mouseScrollDelta    
+		[10] : Line:  247	InputMethod   GetAxis             	("Mouse X")
+		[11] : Line:  247	InputMethod   GetAxis             	("Mouse Y")
+		[12] : Line:  258	InputMethod   GetKey              	(KeyCode.LeftShift)
+		[13] : Line:  268	InputMethod   GetKey              	(KeyCode.Escape)
+		[14] : Line:  279	InputMethod   GetMouseButton      	(1)
+		[15] : Line:  288	InputMethod   GetMouseButtonDown  	(1)
+		[16] : Line:  297	InputMethod   GetMouseButtonUp    	(1)
+
+Converting script [18 / 20]	[\Scripts\Human Character\HumanSarface.cs]
+	Fragments : 3
+		[ 0] : Line:   14	Other mod.	[Touch]
+		[ 1] : Line:   16	InputProperty touchCount          
+		[ 2] : Line:   18	InputMethod   GetTouch            	(0)
+
+Converting script [19 / 20]	[\Scripts\Human Character\Player_B_HumanSarface.cs]
+	Fragments : 3
+		[ 0] : Line:   10	Other mod.	[Touch]
+		[ 1] : Line:   17	InputProperty touchCount          
+		[ 2] : Line:   17	InputProperty touchCount          
+
+Converting script [20 / 20]	[\_MK\MKToon\Examples\Scripts\UIController.cs]
+	Fragments : 1
+		[ 0] : Line:   22	InputMethod   GetKeyDown          	(KeyCode.Space)
+
+
+20 scripts modified!
+Overwriting actual scripts...
+	[0 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\SwarveMovement.cs] to [D:/OOP FrameWork World (URP)/Assets/\SwarveMovement.cs]
+	[1 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Debug\Scripts\AxisDebugger.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Debug\Scripts\AxisDebugger.cs]
+	[2 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Debug\Scripts\GamepadHardwareTester.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Debug\Scripts\GamepadHardwareTester.cs]
+	[3 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Scripts\Gamepads\GamepadManager.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Scripts\Gamepads\GamepadManager.cs]
+	[4 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Scripts\InputModules\GamepadInputModule.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Scripts\InputModules\GamepadInputModule.cs]
+	[5 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Scripts\System\CF2Input.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Scripts\System\CF2Input.cs]
+	[6 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Scripts\System\CFCursor.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Scripts\System\CFCursor.cs]
+	[7 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Scripts\System\CFScreen.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Scripts\System\CFScreen.cs]
+	[8 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Scripts\System\InputRig.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Scripts\System\InputRig.cs]
+	[9 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Scripts\TouchControls\SuperTouchZone.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Scripts\TouchControls\SuperTouchZone.cs]
+	[10 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Control-Freak-2\Scripts\TouchControls\TouchControlPanel.cs] to [D:/OOP FrameWork World (URP)/Assets/\Control-Freak-2\Scripts\TouchControls\TouchControlPanel.cs]
+	[11 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs] to [D:/OOP FrameWork World (URP)/Assets/\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs]
+	[12 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs] to [D:/OOP FrameWork World (URP)/Assets/\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs]
+	[13 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs] to [D:/OOP FrameWork World (URP)/Assets/\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs]
+	[14 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs] to [D:/OOP FrameWork World (URP)/Assets/\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs]
+	[15 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs] to [D:/OOP FrameWork World (URP)/Assets/\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs]
+	[16 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Scripts\SimpleCameraController.cs] to [D:/OOP FrameWork World (URP)/Assets/\Scripts\SimpleCameraController.cs]
+	[17 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Scripts\Human Character\HumanSarface.cs] to [D:/OOP FrameWork World (URP)/Assets/\Scripts\Human Character\HumanSarface.cs]
+	[18 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\Scripts\Human Character\Player_B_HumanSarface.cs] to [D:/OOP FrameWork World (URP)/Assets/\Scripts\Human Character\Player_B_HumanSarface.cs]
+	[19 / 20] from  [D:/OOP FrameWork World (URP)/CF2-Data/Script-Backups/2021-12-01-16-18\Assets-After/\_MK\MKToon\Examples\Scripts\UIController.cs] to [D:/OOP FrameWork World (URP)/Assets/\_MK\MKToon\Examples\Scripts\UIController.cs]
+
+Overwriting COMPLETED!
